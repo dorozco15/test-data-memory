@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Mar 19 15:33:16 2016
+Quartus II 64-Bit Version : 14.0.2 Build 209 09/17/2014 SJ Full Version
+Revision Name : DataMemory
+Top-level Entity Name : DataMemory
+Family : Cyclone IV E
+Total logic elements : 2,942
+    Total combinational functions : 2,942
+    Dedicated logic registers : 528
+Total registers : 528
+Total pins : 108
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

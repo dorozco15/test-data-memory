@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\dorozco\Desktop\test-DataMemory\simulation\qsim
+vDataMemory
+Z1 !s100 H>T>QbH>?0Eg0ez@PQ?ie2
+Z2 I_4QfEY`c]A2zR697mTE180
+Z3 VU7U;>AS>2;F3d<oXO;C6`0
+Z4 dC:\Users\dorozco\Desktop\test-DataMemory\simulation\qsim
+Z5 w1458412712
+Z6 8DataMemory.vo
+Z7 FDataMemory.vo
+L0 32
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 !s90 -work|work|DataMemory.vo|
+Z10 o-work work -O0
+Z11 n@data@memory
+!i10b 1
+!s85 0
+Z12 !s108 1458412713.573000
+Z13 !s107 DataMemory.vo|
+!s101 -O0
+vDataMemory_vlg_check_tst
+!i10b 1
+Z14 !s100 ]BYICn13BY>Sg?fab?FWS2
+Z15 IX3KbSioB?aEGIjn@MLl8H3
+Z16 V20>lFM@<;zlLJe>SQTSG03
+R4
+Z17 w1458412710
+Z18 8dataMemorySim.vwf.vt
+Z19 FdataMemorySim.vwf.vt
+L0 76
+R8
+r1
+!s85 0
+31
+Z20 !s108 1458412714.259000
+Z21 !s107 dataMemorySim.vwf.vt|
+Z22 !s90 -work|work|dataMemorySim.vwf.vt|
+!s101 -O0
+R10
+Z23 n@data@memory_vlg_check_tst
+vDataMemory_vlg_sample_tst
+!i10b 1
+Z24 !s100 iInokR205W<9C1NHdUj1j2
+Z25 IlM7:8>CoHjGF^Tg<PEKC41
+Z26 V@`TKLzO:VA<^dEDlVHllR2
+R4
+R17
+R18
+R19
+L0 30
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@data@memory_vlg_sample_tst
+vDataMemory_vlg_vec_tst
+!i10b 1
+Z28 !s100 W<E=96EW7R>TQ_3bD@S[C0
+Z29 IZ@RM>`IQdIcOloBVYFQ@=0
+Z30 VB883X7Sl`bXaj9z^3h4XY3
+R4
+R17
+R18
+R19
+Z31 L0 467
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@data@memory_vlg_vec_tst
