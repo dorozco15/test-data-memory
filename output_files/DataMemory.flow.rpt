@@ -1,5 +1,5 @@
 Flow report for DataMemory
-Sat Mar 19 15:38:32 2016
+Tue Mar 22 12:35:35 2016
 Quartus II 64-Bit Version 14.0.2 Build 209 09/17/2014 SJ Full Version
 
 
@@ -41,18 +41,18 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sat Mar 19 15:38:32 2016       ;
+; Flow Status                        ; Successful - Tue Mar 22 12:35:35 2016       ;
 ; Quartus II 64-Bit Version          ; 14.0.2 Build 209 09/17/2014 SJ Full Version ;
 ; Revision Name                      ; DataMemory                                  ;
 ; Top-level Entity Name              ; DataMemory                                  ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 2,942 / 114,480 ( 3 % )                     ;
-;     Total combinational functions  ; 2,942 / 114,480 ( 3 % )                     ;
-;     Dedicated logic registers      ; 528 / 114,480 ( < 1 % )                     ;
-; Total registers                    ; 528                                         ;
-; Total pins                         ; 108 / 529 ( 20 % )                          ;
+; Total logic elements               ; 3,264 / 114,480 ( 3 % )                     ;
+;     Total combinational functions  ; 3,264 / 114,480 ( 3 % )                     ;
+;     Dedicated logic registers      ; 592 / 114,480 ( < 1 % )                     ;
+; Total registers                    ; 592                                         ;
+; Total pins                         ; 173 / 529 ( 33 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                       ;
 ; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/19/2016 15:33:10 ;
+; Start date & time ; 03/22/2016 12:27:31 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DataMemory          ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ agreement for further details.
 +-------------------------------------+-----------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                                     ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+-----------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 203178706079675.145841239007220                           ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 203178706091723.145866045106696                           ; --            ; --          ; --             ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                                                        ; --            ; --          ; eda_simulation ;
 ; EDA_NETLIST_WRITER_OUTPUT_DIR       ; C:/Users/dorozco/Desktop/test-DataMemory/simulation/qsim/ ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                                               ; --            ; --          ; eda_simulation ;
@@ -96,14 +96,18 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:06     ; 1.0                     ; 592 MB              ; 00:00:06                           ;
-; Fitter                    ; 00:00:38     ; 1.8                     ; 1583 MB             ; 00:00:50                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 518 MB              ; 00:00:05                           ;
-; TimeQuest Timing Analyzer ; 00:00:05     ; 1.0                     ; 664 MB              ; 00:00:05                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 463 MB              ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 472 MB              ; 00:00:01                           ;
+; Analysis & Synthesis      ; 00:00:07     ; 1.0                     ; 608 MB              ; 00:00:06                           ;
+; Fitter                    ; 00:00:49     ; 1.8                     ; 1581 MB             ; 00:01:01                           ;
+; Assembler                 ; 00:00:05     ; 1.0                     ; 527 MB              ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:06     ; 1.2                     ; 673 MB              ; 00:00:06                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 463 MB              ; 00:00:01                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 475 MB              ; 00:00:01                           ;
-; Total                     ; 00:00:55     ; --                      ; --                  ; 00:01:09                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 475 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 475 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 475 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 475 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 475 MB              ; 00:00:01                           ;
+; Total                     ; 00:01:14     ; --                      ; --                  ; 00:01:25                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -112,13 +116,17 @@ agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; FR-ECE-30181     ; Windows 7 ; 6.1        ; x86_64         ;
-; Fitter                    ; FR-ECE-30181     ; Windows 7 ; 6.1        ; x86_64         ;
-; Assembler                 ; FR-ECE-30181     ; Windows 7 ; 6.1        ; x86_64         ;
-; TimeQuest Timing Analyzer ; FR-ECE-30181     ; Windows 7 ; 6.1        ; x86_64         ;
-; EDA Netlist Writer        ; FR-ECE-30181     ; Windows 7 ; 6.1        ; x86_64         ;
-; EDA Netlist Writer        ; FR-ECE-30181     ; Windows 7 ; 6.1        ; x86_64         ;
-; EDA Netlist Writer        ; FR-ECE-30181     ; Windows 7 ; 6.1        ; x86_64         ;
+; Analysis & Synthesis      ; FR-ECE-30164     ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; FR-ECE-30164     ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; FR-ECE-30164     ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; FR-ECE-30164     ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; FR-ECE-30164     ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; FR-ECE-30164     ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; FR-ECE-30164     ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; FR-ECE-30164     ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; FR-ECE-30164     ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; FR-ECE-30164     ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; FR-ECE-30164     ; Windows 7 ; 6.1        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -130,8 +138,12 @@ quartus_fit --read_settings_files=off --write_settings_files=off DataMemory -c D
 quartus_asm --read_settings_files=off --write_settings_files=off DataMemory -c DataMemory
 quartus_sta DataMemory -c DataMemory
 quartus_eda --read_settings_files=off --write_settings_files=off DataMemory -c DataMemory
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog DataMemory -c DataMemory --vector_source=C:/Users/dorozco/Desktop/test-DataMemory/dataMemorySim.vwf --testbench_file=C:/Users/dorozco/Desktop/test-DataMemory/simulation/qsim/dataMemorySim.vwf.vt
-quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/dorozco/Desktop/test-DataMemory/simulation/qsim/ DataMemory -c DataMemory
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog DataMemory -c DataMemory --vector_source=C:/Users/dorozco/Desktop/test-data-memory/dataMemorySim.vwf --testbench_file=C:/Users/dorozco/Desktop/test-data-memory/simulation/qsim/dataMemorySim.vwf.vt
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/dorozco/Desktop/test-data-memory/simulation/qsim/ DataMemory -c DataMemory
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog DataMemory -c DataMemory --vector_source=C:/Users/dorozco/Desktop/test-data-memory/dataMemorySim.vwf --testbench_file=C:/Users/dorozco/Desktop/test-data-memory/simulation/qsim/dataMemorySim.vwf.vt
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/dorozco/Desktop/test-data-memory/simulation/qsim/ DataMemory -c DataMemory
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog DataMemory -c DataMemory --vector_source=C:/Users/dorozco/Desktop/test-data-memory/dataMemorySim.vwf --testbench_file=C:/Users/dorozco/Desktop/test-data-memory/simulation/qsim/dataMemorySim.vwf.vt
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/dorozco/Desktop/test-data-memory/simulation/qsim/ DataMemory -c DataMemory
 
 
 

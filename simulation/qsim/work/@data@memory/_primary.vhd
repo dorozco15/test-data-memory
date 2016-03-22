@@ -13,6 +13,8 @@ entity DataMemory is
         word_in         : in     vl_logic_vector(1 downto 0);
         write_block     : in     vl_logic;
         blockReplaced   : out    vl_logic;
-        data_block      : in     vl_logic_vector(63 downto 0)
+        data_block      : in     vl_logic_vector(63 downto 0);
+        send_block_out  : in     vl_logic;
+        data_block_out  : out    vl_logic_vector(63 downto 0)
     );
 end DataMemory;

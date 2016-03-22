@@ -9,6 +9,7 @@ entity DataMemory_vlg_sample_tst is
         line_in         : in     vl_logic_vector(2 downto 0);
         read_en         : in     vl_logic;
         reset           : in     vl_logic;
+        send_block_out  : in     vl_logic;
         word_in         : in     vl_logic_vector(1 downto 0);
         write_block     : in     vl_logic;
         write_en        : in     vl_logic;

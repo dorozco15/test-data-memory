@@ -16,7 +16,9 @@ port (
 	word_in: in std_logic_vector(1 downto 0);
 	write_block: in std_logic;
 	blockReplaced: out std_logic;
-	data_block : in std_logic_vector(63 downto 0)
+	data_block : in std_logic_vector(63 downto 0);
+	send_block_out  : in std_logic ; 
+	data_block_out : out std_logic_vector (63 downto 0)
 		);
 		
 end DataMemory;
@@ -67,11 +69,21 @@ word_check <= to_integer(unsigned (word_in));
 	if (clock_en ='1') then 
 		if (rising_edge(clock)) then 
 			if ((read_en = '1') and (write_en = '0')) then
-				data_out <= memory (line_check, word_check);
+				data_out <= memory(line_check, word_check);
 			end if;
 		end if;
 	end if;
 
 	end process;
-			
+	
+	sendblock : process (send_block_out)
+	begin
+	if (send_block_out = '1') then 
+						data_block_out(15 downto 0)<= memory(line_check, 0);
+					  data_block_out(31 downto 16) <= memory(line_check, 1);
+						data_block_out(47 downto 32) <= memory(line_check, 2) ;
+					  data_block_out(63 downto 48)<= memory(line_check, 3);
+					  
+	end if;
+	end process;
 end behav;

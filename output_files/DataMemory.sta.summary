@@ -3,120 +3,156 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'clock'
-Slack : -5.645
-TNS   : -1659.886
+Slack : -5.077
+TNS   : -1212.994
+
+Type  : Slow 1200mV 85C Model Setup 'send_block_out'
+Slack : -4.709
+TNS   : -236.976
 
 Type  : Slow 1200mV 85C Model Setup 'reset'
-Slack : -4.078
-TNS   : -1372.122
+Slack : -4.700
+TNS   : -1281.018
 
 Type  : Slow 1200mV 85C Model Hold 'reset'
-Slack : -1.603
-TNS   : -541.117
+Slack : -0.889
+TNS   : -187.306
+
+Type  : Slow 1200mV 85C Model Hold 'send_block_out'
+Slack : 0.333
+TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'clock'
-Slack : 0.593
+Slack : 0.490
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Recovery 'clock'
-Slack : -3.104
-TNS   : -1584.521
+Slack : -2.035
+TNS   : -958.303
 
 Type  : Slow 1200mV 85C Model Recovery 'reset'
-Slack : -1.752
-TNS   : -386.801
+Slack : -1.492
+TNS   : -544.580
 
 Type  : Slow 1200mV 85C Model Removal 'reset'
-Slack : -0.602
-TNS   : -129.688
+Slack : -0.237
+TNS   : -3.557
 
 Type  : Slow 1200mV 85C Model Removal 'clock'
-Slack : 2.231
+Slack : 1.027
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
 Slack : -3.000
 TNS   : -681.480
 
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'send_block_out'
+Slack : -3.000
+TNS   : -85.240
+
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'reset'
 Slack : -3.000
 TNS   : -3.000
 
 Type  : Slow 1200mV 0C Model Setup 'clock'
-Slack : -5.127
-TNS   : -1464.796
+Slack : -4.629
+TNS   : -1065.433
 
 Type  : Slow 1200mV 0C Model Setup 'reset'
-Slack : -3.702
-TNS   : -1229.399
+Slack : -4.286
+TNS   : -1145.613
+
+Type  : Slow 1200mV 0C Model Setup 'send_block_out'
+Slack : -4.259
+TNS   : -212.794
 
 Type  : Slow 1200mV 0C Model Hold 'reset'
-Slack : -1.396
-TNS   : -457.645
+Slack : -0.758
+TNS   : -146.378
+
+Type  : Slow 1200mV 0C Model Hold 'send_block_out'
+Slack : 0.366
+TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'clock'
-Slack : 0.593
+Slack : 0.497
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Recovery 'clock'
-Slack : -2.804
-TNS   : -1431.106
+Slack : -1.790
+TNS   : -839.279
 
 Type  : Slow 1200mV 0C Model Recovery 'reset'
-Slack : -1.596
-TNS   : -333.371
+Slack : -1.320
+TNS   : -457.994
 
 Type  : Slow 1200mV 0C Model Removal 'reset'
-Slack : -0.387
-TNS   : -41.591
+Slack : -0.070
+TNS   : -0.093
 
 Type  : Slow 1200mV 0C Model Removal 'clock'
-Slack : 2.064
+Slack : 0.956
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
 Slack : -3.000
 TNS   : -681.480
 
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'send_block_out'
+Slack : -3.000
+TNS   : -85.240
+
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'reset'
 Slack : -3.000
 TNS   : -3.000
 
 Type  : Fast 1200mV 0C Model Setup 'clock'
-Slack : -2.472
-TNS   : -583.023
+Slack : -2.070
+TNS   : -328.760
 
 Type  : Fast 1200mV 0C Model Setup 'reset'
-Slack : -1.542
-TNS   : -413.424
+Slack : -2.001
+TNS   : -377.713
+
+Type  : Fast 1200mV 0C Model Setup 'send_block_out'
+Slack : -1.870
+TNS   : -88.321
 
 Type  : Fast 1200mV 0C Model Hold 'reset'
-Slack : -0.974
-TNS   : -362.495
+Slack : -0.575
+TNS   : -156.819
+
+Type  : Fast 1200mV 0C Model Hold 'send_block_out'
+Slack : -0.034
+TNS   : -0.034
 
 Type  : Fast 1200mV 0C Model Hold 'clock'
-Slack : 0.116
+Slack : 0.068
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Recovery 'clock'
-Slack : -1.564
-TNS   : -797.187
+Slack : -1.066
+TNS   : -505.370
 
 Type  : Fast 1200mV 0C Model Recovery 'reset'
-Slack : -1.177
-TNS   : -312.026
+Slack : -1.026
+TNS   : -388.661
 
 Type  : Fast 1200mV 0C Model Removal 'reset'
-Slack : -0.461
-TNS   : -156.674
+Slack : -0.235
+TNS   : -36.144
 
 Type  : Fast 1200mV 0C Model Removal 'clock'
-Slack : 0.987
+Slack : 0.424
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
 Slack : -3.000
-TNS   : -564.095
+TNS   : -567.994
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'send_block_out'
+Slack : -3.000
+TNS   : -72.265
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'reset'
 Slack : -3.000

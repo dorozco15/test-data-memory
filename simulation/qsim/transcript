@@ -26,8 +26,8 @@
 # Loading work.DataMemory_vlg_sample_tst
 # Loading work.DataMemory_vlg_check_tst
 # Loading altera_ver.PRIM_GDFF_LOW
-# ** Warning: Design size of 12580 statements exceeds ModelSim Altera Starter recommended capacity.
+# ** Warning: Design size of 14791 statements exceeds ModelSim Altera Starter recommended capacity.
 # Expect performance to be adversely affected.
 # Simulation passed !
-# ** Note: $finish    : dataMemorySim.vwf.vt(463)
+# ** Note: $finish    : dataMemorySim.vwf.vt(1625)
 #    Time: 1 us  Iteration: 0  Instance: /DataMemory_vlg_vec_tst/tb_out
